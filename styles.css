@@ -1,3 +1,55 @@
-h1 {
-    color: blue;
+
+/* Mobile menu */
+
+.navContainer {
+    display: flex;
+    justify-content: space-around;
 }
+.navLinks {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.navImg {
+    padding: 10px;
+}
+
+ .navImg:hover {
+    background-color: #343434;
+}
+
+.navItem a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+ .navItem a:hover {
+    text-decoration: green 2px underline;
+}
+
+body {
+    background-color: #e2e2e2;
+}
+.newsImg {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+}
+
+
+
